@@ -15,7 +15,7 @@ function App() {
   // Calculate volume with custom cap shape
   const calculateVolume = () => {
     const { length, radius, capHeight } = dimensions;
-
+    console.log(length, radius, capHeight);
     // Calculate ball radius based on cap height and radius
     const ballRadius =
       (Math.pow(capHeight, 2) + Math.pow(radius, 2)) / (2 * capHeight);
